@@ -1,0 +1,20 @@
+{
+  "name": "nodefirstwebsite",
+  "version": "1.0.0",
+  "description": "My first node Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "author": "Jeisson Santiesteban",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
